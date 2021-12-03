@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/Moltenship/sibfu-timetable-api.git"
   },
+  "homepage": "https://github.com/Moltenship/sibfu-timetable-api#readme",
   "files": [
     "dist"
   ],
@@ -16,7 +17,7 @@
   "module": "./dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src --dts --format cjs,esm",
+    "build": "rimraf dist && tsup src --dts --format cjs,esm --minify",
     "prepublish": "npm run build",
     "release": "npx bumpp --commit --push --tag"
   },
