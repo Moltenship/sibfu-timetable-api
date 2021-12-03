@@ -1,9 +1,13 @@
 {
   "name": "sibfu-timetable-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides types and util functions for working with sibfu timetable api",
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moltenship/sibfu-timetable-api.git"
   },
   "files": [
     "dist"
@@ -19,7 +23,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src --dts --format cjs,esm,iife",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "release": "npx bumpp --commit --push --tag"
   },
   "keywords": [
     "sibfu",
