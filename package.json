@@ -14,15 +14,9 @@
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
-  },
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src --dts --format cjs,esm,iife",
+    "build": "tsup src --dts --format cjs,esm",
     "prepublish": "npm run build",
     "release": "npx bumpp --commit --push --tag"
   },
