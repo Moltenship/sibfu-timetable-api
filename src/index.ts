@@ -1,0 +1,10 @@
+export { SyncType } from './enums/syncType';
+export { ClassType } from './enums/classType';
+export { Class } from './models/class';
+export { Timetable } from './models/timetable';
+export { TimetableDate } from './models/timetableDate';
+export { TargetType } from './enums/targetType';
+export { Month, DisplayMonths } from './enums/months';
+export { Week, DisplayWeeks } from './enums/week';
+export { Day, DisplayDays, SortedDays } from './enums/days';
+export { fetchTimetable } from './services/timetableService';
