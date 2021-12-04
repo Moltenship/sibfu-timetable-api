@@ -1,6 +1,6 @@
 {
   "name": "sibfu-timetable-api",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Provides types and util functions for working with sibfu timetable api",
   "publishConfig": {
     "access": "public"
