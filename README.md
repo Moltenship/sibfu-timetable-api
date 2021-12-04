@@ -41,6 +41,16 @@ const weekType = TimetableDate.getWeekStatus(today);
 console.log(weekType); // 1 or 2 depending on your current date which is enum `Week`
 ```
 
+## Autocomplete module
+```ts
+import { fetchTargets } from 'sibfu-timetable-api';
+
+const targets = await fetchTimetable('r');
+
+console.log(targets); // ['result-group', 'result-teacher']
+```
+Always returns the best result for given string! 😱
+
 ## Huge thanks 👋
 To my friend [choi-moeta](https://github.com/choi-moeta) for inspiring me and helping with creating and publishing this library. 💗
 

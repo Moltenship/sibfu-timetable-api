@@ -8,3 +8,4 @@ export { Month, DisplayMonths } from './enums/months';
 export { Week, DisplayWeeks } from './enums/week';
 export { Day, DisplayDays, SortedDays } from './enums/days';
 export { fetchTimetable } from './services/timetableService';
+export { fetchTargets } from './services/autocompleteService';
