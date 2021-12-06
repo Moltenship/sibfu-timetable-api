@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://edu.sfu-kras.ru/api/timetable/';
+const BASE_URL = 'https://edu.sfu-kras.ru/api/timetable/';
 
 /**
  * Module for interaction with autocomplete api.
